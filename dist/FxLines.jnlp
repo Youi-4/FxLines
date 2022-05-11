@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FxLines.jnlp">
+  <information>
+    <title>FxLines</title>
+    <vendor>shubh</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FxLines.jar" size="5065" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="fxlines.FxLines"  name="FxLines" />
+  <update check="always"/>
+</jnlp>
